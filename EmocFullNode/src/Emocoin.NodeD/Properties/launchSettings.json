@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Emocoin.EmocD": {
+      "commandName": "Project",
+      "commandLineArgs": "-conf=emojitest2.conf -datadir=d:\\data\\EmocNode2"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>Emocoin.Bitcoin.Features.Api</AssemblyName>
+    <OutputType>Library</OutputType>
+    <PackageId>Emocoin.Features.Api</PackageId>
+    <Version>1.0.7.4</Version>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <ApplicationIcon />
+    <OutputTypeEx>library</OutputTypeEx>
+    <StartupObject />
+    <!-- Force packing of a web project https://github.com/aspnet/websdk/issues/228 -->
+    <IsPackable>true</IsPackable>
+    <Authors>Emocoin LLC</Authors>
+    <Product>Emocoin.Features.Api</Product>
+  </PropertyGroup> 
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="3.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="3.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+    <PackageReference Include="System.Reactive" Version="4.0.0" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Emocoin.Bitcoin\Emocoin.Bitcoin.csproj" />
+  </ItemGroup>
+
+</Project>

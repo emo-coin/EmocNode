@@ -1,0 +1,223 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{5B331FD3-D493-46A9-928B-B786FC6F3103}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Emocoin.ruleset = Emocoin.ruleset
+		global.json = global.json
+		None.ruleset = None.ruleset
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin", "Emocoin.Bitcoin\Emocoin.Bitcoin.csproj", "{094AECD5-E0D8-43A9-A0BD-39B01F51A1F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.BitcoinD", "Emocoin.BitcoinD\Emocoin.BitcoinD.csproj", "{878232F0-1FF1-4836-B5BC-E9B1279AA616}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{1B9A916F-DDAC-4675-B424-EDEDC1A58231}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.RPC", "Emocoin.Bitcoin.Features.RPC\Emocoin.Bitcoin.Features.RPC.csproj", "{5E0010F1-50B8-4FC5-A9C2-38D7DF73A0D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.Miner", "Emocoin.Bitcoin.Features.Miner\Emocoin.Bitcoin.Features.Miner.csproj", "{22B296FE-26B4-4B84-8CF5-614F9D3716A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.Wallet", "Emocoin.Bitcoin.Features.Wallet\Emocoin.Bitcoin.Features.Wallet.csproj", "{6650A6CC-3B56-4D86-8DAA-FD0C8830113A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.BlockStore", "Emocoin.Bitcoin.Features.BlockStore\Emocoin.Bitcoin.Features.BlockStore.csproj", "{528DB00C-F8AE-4703-80E5-ECC37AC56A9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.MemoryPool", "Emocoin.Bitcoin.Features.MemoryPool\Emocoin.Bitcoin.Features.MemoryPool.csproj", "{AFDF6339-EE03-4F76-BFB5-024713230D91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.Notifications", "Emocoin.Bitcoin.Features.Notifications\Emocoin.Bitcoin.Features.Notifications.csproj", "{5D10A9EE-C328-43EC-B9EF-A6B683AD44C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.Consensus", "Emocoin.Bitcoin.Features.Consensus\Emocoin.Bitcoin.Features.Consensus.csproj", "{75C364C1-0785-4EDD-9DB8-B0B21F27573C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Cli", "Emocoin.Bitcoin.Cli\Emocoin.Bitcoin.Cli.csproj", "{BCC67768-8333-4723-842D-1A79C084CE3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.Api", "Emocoin.Bitcoin.Features.Api\Emocoin.Bitcoin.Features.Api.csproj", "{FB78D861-F3DF-412D-8A3D-D1756ADA39D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A1638E4-4D1B-46EE-8F5B-76282EB33041}"
+	ProjectSection(SolutionItems) = preProject
+		..\.travis.yml = ..\.travis.yml
+		..\appveyor.yml = ..\appveyor.yml
+		..\build.sh = ..\build.sh
+		..\PushNuget.ps1 = ..\PushNuget.ps1
+		..\PushSCNuget.ps1 = ..\PushSCNuget.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoin", "NBitcoin\NBitcoin.csproj", "{2051FCAC-D4C7-498D-B935-2E9E6DEA0C29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.Dns", "Emocoin.Bitcoin.Features.Dns\Emocoin.Bitcoin.Features.Dns.csproj", "{6181B889-81B0-4A1E-A29F-E20DCD8BFC1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.EmocDnsD", "Emocoin.EmocDnsD\Emocoin.EmocDnsD.csproj", "{978482B2-AE17-421E-AD6F-ED9667C6B8A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Tests.Wallet.Common", "Emocoin.Bitcoin.Tests.Wallet.Common\Emocoin.Bitcoin.Tests.Wallet.Common.csproj", "{A52CC0A6-D860-418C-8B08-8A1388D96D71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.SmartContracts.Core", "Emocoin.SmartContracts.Core\Emocoin.SmartContracts.Core.csproj", "{979B426B-1083-48EC-902D-462DEE8127F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Networks", "Emocoin.Bitcoin.Networks\Emocoin.Bitcoin.Networks.csproj", "{C1D739B1-79CB-4D42-8147-3A31D1B84868}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bips", "bips", "{D73CF3DE-0673-4846-B68F-ECFB836F14ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.ColdStaking", "Emocoin.Bitcoin.Features.ColdStaking\Emocoin.Bitcoin.Features.ColdStaking.csproj", "{072C5F7C-4B75-46C9-A54D-774DA77ED1D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{7FFED910-450B-4D6E-9085-6E5A6731D72A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Benchmark", "Emocoin.Benchmark\Emocoin.Benchmark.csproj", "{B8BC6552-6409-4BE1-B085-E8E6513EC251}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FederationSetup", "FederationSetup\FederationSetup.csproj", "{C83A089D-7B30-46BB-BBE3-AFBBAFB9A40D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Bitcoin.Features.SignalR", "Emocoin.Bitcoin.Features.SignalR\Emocoin.Bitcoin.Features.SignalR.csproj", "{6BBFFE59-0597-4ADA-A592-CED25C05C01A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Features.Diagnostic", "Emocoin.Features.Diagnostic\Emocoin.Features.Diagnostic.csproj", "{53209209-7239-4FEB-BE8D-B2DF6145BBDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FodyNlogAdapter", "FodyNlogAdapter\FodyNlogAdapter.csproj", "{2576847F-BFFC-4F0A-B883-28F2E38FEC7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Features.SQLiteWalletRepository", "Emocoin.Features.SQLiteWalletRepository\Emocoin.Features.SQLiteWalletRepository.csproj", "{AA085181-BBB4-495E-BFD8-7AE4BB52A0A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.NodeD", "Emocoin.NodeD\Emocoin.NodeD.csproj", "{580012ED-564E-43EB-ACBF-86EAF987FD9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapExtractionTool", "SwapExtractionTool\SwapExtractionTool.csproj", "{F2999E86-9949-4962-A6C6-38D1F0409D73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{094AECD5-E0D8-43A9-A0BD-39B01F51A1F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094AECD5-E0D8-43A9-A0BD-39B01F51A1F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094AECD5-E0D8-43A9-A0BD-39B01F51A1F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094AECD5-E0D8-43A9-A0BD-39B01F51A1F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878232F0-1FF1-4836-B5BC-E9B1279AA616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878232F0-1FF1-4836-B5BC-E9B1279AA616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878232F0-1FF1-4836-B5BC-E9B1279AA616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878232F0-1FF1-4836-B5BC-E9B1279AA616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0010F1-50B8-4FC5-A9C2-38D7DF73A0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0010F1-50B8-4FC5-A9C2-38D7DF73A0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0010F1-50B8-4FC5-A9C2-38D7DF73A0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0010F1-50B8-4FC5-A9C2-38D7DF73A0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B296FE-26B4-4B84-8CF5-614F9D3716A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B296FE-26B4-4B84-8CF5-614F9D3716A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B296FE-26B4-4B84-8CF5-614F9D3716A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B296FE-26B4-4B84-8CF5-614F9D3716A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6650A6CC-3B56-4D86-8DAA-FD0C8830113A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6650A6CC-3B56-4D86-8DAA-FD0C8830113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6650A6CC-3B56-4D86-8DAA-FD0C8830113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6650A6CC-3B56-4D86-8DAA-FD0C8830113A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528DB00C-F8AE-4703-80E5-ECC37AC56A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528DB00C-F8AE-4703-80E5-ECC37AC56A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528DB00C-F8AE-4703-80E5-ECC37AC56A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528DB00C-F8AE-4703-80E5-ECC37AC56A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFDF6339-EE03-4F76-BFB5-024713230D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDF6339-EE03-4F76-BFB5-024713230D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDF6339-EE03-4F76-BFB5-024713230D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDF6339-EE03-4F76-BFB5-024713230D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D10A9EE-C328-43EC-B9EF-A6B683AD44C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D10A9EE-C328-43EC-B9EF-A6B683AD44C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D10A9EE-C328-43EC-B9EF-A6B683AD44C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D10A9EE-C328-43EC-B9EF-A6B683AD44C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C364C1-0785-4EDD-9DB8-B0B21F27573C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C364C1-0785-4EDD-9DB8-B0B21F27573C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C364C1-0785-4EDD-9DB8-B0B21F27573C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C364C1-0785-4EDD-9DB8-B0B21F27573C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC67768-8333-4723-842D-1A79C084CE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC67768-8333-4723-842D-1A79C084CE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC67768-8333-4723-842D-1A79C084CE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC67768-8333-4723-842D-1A79C084CE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB78D861-F3DF-412D-8A3D-D1756ADA39D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB78D861-F3DF-412D-8A3D-D1756ADA39D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB78D861-F3DF-412D-8A3D-D1756ADA39D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB78D861-F3DF-412D-8A3D-D1756ADA39D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2051FCAC-D4C7-498D-B935-2E9E6DEA0C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2051FCAC-D4C7-498D-B935-2E9E6DEA0C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2051FCAC-D4C7-498D-B935-2E9E6DEA0C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2051FCAC-D4C7-498D-B935-2E9E6DEA0C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6181B889-81B0-4A1E-A29F-E20DCD8BFC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6181B889-81B0-4A1E-A29F-E20DCD8BFC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6181B889-81B0-4A1E-A29F-E20DCD8BFC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6181B889-81B0-4A1E-A29F-E20DCD8BFC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978482B2-AE17-421E-AD6F-ED9667C6B8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978482B2-AE17-421E-AD6F-ED9667C6B8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978482B2-AE17-421E-AD6F-ED9667C6B8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978482B2-AE17-421E-AD6F-ED9667C6B8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52CC0A6-D860-418C-8B08-8A1388D96D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52CC0A6-D860-418C-8B08-8A1388D96D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52CC0A6-D860-418C-8B08-8A1388D96D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52CC0A6-D860-418C-8B08-8A1388D96D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979B426B-1083-48EC-902D-462DEE8127F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979B426B-1083-48EC-902D-462DEE8127F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979B426B-1083-48EC-902D-462DEE8127F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979B426B-1083-48EC-902D-462DEE8127F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D739B1-79CB-4D42-8147-3A31D1B84868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D739B1-79CB-4D42-8147-3A31D1B84868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D739B1-79CB-4D42-8147-3A31D1B84868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D739B1-79CB-4D42-8147-3A31D1B84868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072C5F7C-4B75-46C9-A54D-774DA77ED1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072C5F7C-4B75-46C9-A54D-774DA77ED1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072C5F7C-4B75-46C9-A54D-774DA77ED1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072C5F7C-4B75-46C9-A54D-774DA77ED1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BC6552-6409-4BE1-B085-E8E6513EC251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BC6552-6409-4BE1-B085-E8E6513EC251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BC6552-6409-4BE1-B085-E8E6513EC251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BC6552-6409-4BE1-B085-E8E6513EC251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83A089D-7B30-46BB-BBE3-AFBBAFB9A40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83A089D-7B30-46BB-BBE3-AFBBAFB9A40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83A089D-7B30-46BB-BBE3-AFBBAFB9A40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83A089D-7B30-46BB-BBE3-AFBBAFB9A40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBFFE59-0597-4ADA-A592-CED25C05C01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBFFE59-0597-4ADA-A592-CED25C05C01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBFFE59-0597-4ADA-A592-CED25C05C01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBFFE59-0597-4ADA-A592-CED25C05C01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53209209-7239-4FEB-BE8D-B2DF6145BBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53209209-7239-4FEB-BE8D-B2DF6145BBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53209209-7239-4FEB-BE8D-B2DF6145BBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53209209-7239-4FEB-BE8D-B2DF6145BBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2576847F-BFFC-4F0A-B883-28F2E38FEC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2576847F-BFFC-4F0A-B883-28F2E38FEC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2576847F-BFFC-4F0A-B883-28F2E38FEC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2576847F-BFFC-4F0A-B883-28F2E38FEC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA085181-BBB4-495E-BFD8-7AE4BB52A0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA085181-BBB4-495E-BFD8-7AE4BB52A0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA085181-BBB4-495E-BFD8-7AE4BB52A0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA085181-BBB4-495E-BFD8-7AE4BB52A0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580012ED-564E-43EB-ACBF-86EAF987FD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580012ED-564E-43EB-ACBF-86EAF987FD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580012ED-564E-43EB-ACBF-86EAF987FD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580012ED-564E-43EB-ACBF-86EAF987FD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2999E86-9949-4962-A6C6-38D1F0409D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2999E86-9949-4962-A6C6-38D1F0409D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2999E86-9949-4962-A6C6-38D1F0409D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2999E86-9949-4962-A6C6-38D1F0409D73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E0010F1-50B8-4FC5-A9C2-38D7DF73A0D2} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{22B296FE-26B4-4B84-8CF5-614F9D3716A6} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{6650A6CC-3B56-4D86-8DAA-FD0C8830113A} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{528DB00C-F8AE-4703-80E5-ECC37AC56A9E} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{AFDF6339-EE03-4F76-BFB5-024713230D91} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{5D10A9EE-C328-43EC-B9EF-A6B683AD44C3} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{75C364C1-0785-4EDD-9DB8-B0B21F27573C} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{FB78D861-F3DF-412D-8A3D-D1756ADA39D4} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{2051FCAC-D4C7-498D-B935-2E9E6DEA0C29} = {1B9A916F-DDAC-4675-B424-EDEDC1A58231}
+		{6181B889-81B0-4A1E-A29F-E20DCD8BFC1F} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{979B426B-1083-48EC-902D-462DEE8127F8} = {1B9A916F-DDAC-4675-B424-EDEDC1A58231}
+		{072C5F7C-4B75-46C9-A54D-774DA77ED1D1} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{B8BC6552-6409-4BE1-B085-E8E6513EC251} = {7FFED910-450B-4D6E-9085-6E5A6731D72A}
+		{C83A089D-7B30-46BB-BBE3-AFBBAFB9A40D} = {1B9A916F-DDAC-4675-B424-EDEDC1A58231}
+		{6BBFFE59-0597-4ADA-A592-CED25C05C01A} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{53209209-7239-4FEB-BE8D-B2DF6145BBDA} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{2576847F-BFFC-4F0A-B883-28F2E38FEC7F} = {1B9A916F-DDAC-4675-B424-EDEDC1A58231}
+		{AA085181-BBB4-495E-BFD8-7AE4BB52A0A0} = {15D29FFD-6142-4DC5-AFFD-10BA0CA55C45}
+		{F2999E86-9949-4962-A6C6-38D1F0409D73} = {1B9A916F-DDAC-4675-B424-EDEDC1A58231}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C780ABA-5872-4B83-AD3F-A5BD423AD907}
+	EndGlobalSection
+EndGlobal

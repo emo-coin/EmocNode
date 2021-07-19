@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>FodyNlogAdapter</AssemblyName>
+    <Version>1.0.7.0</Version>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Authors>Emocoin Group Ltd.</Authors>
+    <PackageId>Emocoin.Utils.FodyNlogAdapter</PackageId>
+    <Product>Emocoin.Utils.FodyNlogAdapter</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Emocoin Bitcoin Features Miner</Description>
+    <AssemblyTitle>Emocoin.Bitcoin.Features.Miner</AssemblyTitle>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Emocoin.Bitcoin.Features.Miner</AssemblyName>
+    <PackageId>Emocoin.Features.Miner</PackageId>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <Version>1.0.7.2</Version>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Authors>Emocoin Group Ltd.</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Emocoin.Bitcoin.Features.Miner\**" />
+    <EmbeddedResource Remove="Emocoin.Bitcoin.Features.Miner\**" />
+    <None Remove="Emocoin.Bitcoin.Features.Miner\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NBitcoin\NBitcoin.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin.Features.MemoryPool\Emocoin.Bitcoin.Features.MemoryPool.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin.Features.RPC\Emocoin.Bitcoin.Features.RPC.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin.Features.Wallet\Emocoin.Bitcoin.Features.Wallet.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin\Emocoin.Bitcoin.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+    <DefineConstants>$(DefineConstants);NETCORE</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1705;IDE0008;</NoWarn>
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+</Project>

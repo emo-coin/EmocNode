@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Emocoin Bitcoin Features Wallet</Description>
+    <AssemblyTitle>Emocoin.Bitcoin.Features.Wallet</AssemblyTitle>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Emocoin.Bitcoin.Features.Wallet</AssemblyName>
+    <PackageId>Emocoin.Features.Wallet</PackageId>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <Version>1.0.7.2</Version>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Authors>Emocoin LLC</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Emocoin.Bitcoin.Features.Wallet\**" />
+    <EmbeddedResource Remove="Emocoin.Bitcoin.Features.Wallet\**" />
+    <None Remove="Emocoin.Bitcoin.Features.Wallet\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.1" />
+    <PackageReference Include="System.Reactive" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Filter" Version="1.1.2" />
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NBitcoin\NBitcoin.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin.Features.BlockStore\Emocoin.Bitcoin.Features.BlockStore.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin.Features.MemoryPool\Emocoin.Bitcoin.Features.MemoryPool.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin.Features.RPC\Emocoin.Bitcoin.Features.RPC.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin\Emocoin.Bitcoin.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+    <DefineConstants>$(DefineConstants);NETCORE</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1705;IDE0008;</NoWarn>
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+</Project>

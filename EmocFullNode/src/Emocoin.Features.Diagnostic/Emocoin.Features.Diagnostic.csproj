@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <CodeAnalysisRuleSet>..\None.ruleset</CodeAnalysisRuleSet>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Version>1.0.7.0</Version>
+    <Authors>Emocoin Group Ltd.</Authors>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\NBitcoin\NBitcoin.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin\Emocoin.Bitcoin.csproj" />
+  </ItemGroup>
+
+</Project>

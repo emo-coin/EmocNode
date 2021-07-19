@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Emocoin Features SQLiteWalletRepository</Description>
+    <AssemblyTitle>Emocoin.Features.SQLiteWalletRepository</AssemblyTitle>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Emocoin.Features.SQLiteWalletRepository</AssemblyName>
+    <PackageId>Emocoin.Features.SQLiteWalletRepository</PackageId>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <Version>1.0.7.2</Version>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Authors>Emocoin Group Ltd.</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Emocoin.Features.SQLiteWalletRepository\**" />
+    <EmbeddedResource Remove="Emocoin.Features.SQLiteWalletRepository\**" />
+    <None Remove="Emocoin.Features.Wallet\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="issues.md.backup" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.1" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
+    <PackageReference Include="System.Reactive" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Filter" Version="1.1.2" />
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NBitcoin\NBitcoin.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin.Features.Wallet\Emocoin.Bitcoin.Features.Wallet.csproj" />
+    <ProjectReference Include="..\Emocoin.Bitcoin\Emocoin.Bitcoin.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+    <DefineConstants>$(DefineConstants);NETCORE</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1705;IDE0008;</NoWarn>
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+</Project>
