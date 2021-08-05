@@ -332,12 +332,9 @@ namespace Emocoin.Bitcoin.Configuration
         {
             TextFileConfiguration config = this.ConfigReader;
 
-            //this.MinTxFeeRate = new FeeRate(config.GetOrDefault("mintxfee", this.Network.MinTxFee, this.Logger));
-            //this.FallbackTxFeeRate = new FeeRate(config.GetOrDefault("fallbackfee", this.Network.FallbackFee, this.Logger));
-            //this.MinRelayTxFeeRate = new FeeRate(config.GetOrDefault("minrelaytxfee", this.Network.MinRelayTxFee, this.Logger));
-            this.MinTxFeeRate = new FeeRate(0);
-            this.FallbackTxFeeRate = new FeeRate(0);
-            this.MinRelayTxFeeRate = new FeeRate(0);
+            this.MinTxFeeRate = new FeeRate(config.GetOrDefault("mintxfee", this.Network.MinTxFee, this.Logger));
+            this.FallbackTxFeeRate = new FeeRate(config.GetOrDefault("fallbackfee", this.Network.FallbackFee, this.Logger));
+            this.MinRelayTxFeeRate = new FeeRate(config.GetOrDefault("minrelaytxfee", this.Network.MinRelayTxFee, this.Logger));
         }
 
         /// <summary>

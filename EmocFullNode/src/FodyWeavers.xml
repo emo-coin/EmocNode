@@ -6,14 +6,14 @@
       staticLogger="FodyNlogAdapter.Log"
       traceConstructors="false"
       traceProperties="false">
-      <TraceOn namespace="Emocoin.Bitcoin+*" class="private" method="private" />
-      <TraceOn namespace="Emocoin.SmartContracts.Core+*" class="private" method="private" />
-      <TraceOn namespace="Emocoin.SmartContracts.CLR+*" class="private" method="private" />
-      <TraceOn namespace="Emocoin.Bitcoin.Features.PoA+*" class="private" method="private" />
-      <TraceOn namespace="Emocoin.Features.FederatedPeg+*" class="private" method="private" />
-      <TraceOn namespace="Emocoin.Bitcoin.Features.SmartContracts+*" class="private" method="private" />
-      <NoTrace namespace="Emocoin.Bitcoin.Features.Consensus+*" />
-      <NoTrace namespace="Emocoin.Bitcoin.Features.Miner+*" />
+      <TraceOn namespace="Stratis.Bitcoin+*" class="private" method="private" />
+      <TraceOn namespace="Stratis.SmartContracts.Core+*" class="private" method="private" />
+      <TraceOn namespace="Stratis.SmartContracts.CLR+*" class="private" method="private" />
+      <TraceOn namespace="Stratis.Bitcoin.Features.PoA+*" class="private" method="private" />
+      <TraceOn namespace="Stratis.Features.FederatedPeg+*" class="private" method="private" />
+      <TraceOn namespace="Stratis.Bitcoin.Features.SmartContracts+*" class="private" method="private" />
+      <NoTrace namespace="Stratis.Bitcoin.Features.Consensus+*" />
+      <NoTrace namespace="Stratis.Bitcoin.Features.Miner+*" />
       <NoTrace namespace="*.Tests+*" />
       <NoTrace namespace="*.IntegrationTests+*" />
   </Tracer>  

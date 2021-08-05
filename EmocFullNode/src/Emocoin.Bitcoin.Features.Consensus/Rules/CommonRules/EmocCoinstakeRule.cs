@@ -24,8 +24,8 @@ namespace Emocoin.Bitcoin.Features.Consensus.Rules.CommonRules
 
         // This payment script is what must actually be checked against in the consensus rule i.e. the reward transaction has this as an output's scriptPubKey.
         //public static readonly Script CirrusRewardScript = CirrusRewardScriptRedeem.PaymentScript;        
-        //public static Script CirrusRewardScript = CirrusRewardScriptRedeem.PaymentScript;
-        public static readonly Script CirrusRewardScript = Script.FromHex("76a914b7c554ca4342a9e049aedf6cc48e3a13f46da87f88ac");
+        //public static Script CirrusRewardScript = CirrusRewardScriptRedeem.PaymentScript;        
+        public static readonly Script CirrusRewardScript = Script.FromHex("76a914580c0bd18511936e524b08d629e81cb1ef4644da88ac");
         
 
         /// <summary>Allow access to the POS parent.</summary>

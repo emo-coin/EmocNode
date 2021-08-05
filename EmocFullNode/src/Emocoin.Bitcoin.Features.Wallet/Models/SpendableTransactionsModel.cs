@@ -52,8 +52,12 @@ namespace Emocoin.Bitcoin.Features.Wallet.Models
         public Money Amount { get; set; }
 
 
+        [JsonProperty(PropertyName = "emojiHex")]
+        public string EmojiHex { get; set; }
+
         [JsonProperty(PropertyName = "emoji")]
         public Emoji Emoji { get; set; }
+
 
         /// <summary>
         /// Gets or sets the creation time.

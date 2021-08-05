@@ -898,6 +898,7 @@ namespace Emocoin.Bitcoin.Features.Wallet.Services
                         Id = st.Transaction.Id,
                         Amount = st.Transaction.Amount,
                         Emoji = st.Transaction.Emoji,
+                        EmojiHex = st.Transaction.Emoji.ToString(),
                         Address = st.Address.Address,
                         Index = st.Transaction.Index,
                         IsChange = st.Address.IsChangeAddress(),

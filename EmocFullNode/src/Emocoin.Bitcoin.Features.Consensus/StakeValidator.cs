@@ -51,7 +51,7 @@ namespace Emocoin.Bitcoin.Features.Consensus
 
         // TODO: move this to IConsensus
         /// <summary>Time interval in minutes that is used in the retarget calculation.</summary>
-        private const uint RetargetIntervalMinutes = 16;
+        private const uint RetargetIntervalMinutes = 5;
 
         /// <summary>Instance logger.</summary>
         private readonly ILogger logger;

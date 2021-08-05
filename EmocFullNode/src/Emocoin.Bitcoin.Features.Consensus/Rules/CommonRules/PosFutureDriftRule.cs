@@ -4,6 +4,7 @@ using Emocoin.Bitcoin.Consensus;
 using Emocoin.Bitcoin.Consensus.Rules;
 using Emocoin.Bitcoin.Utilities;
 
+//EMOC remove all this! we do not have drift issue, no hard fork, genesis is 5 years after this bug
 namespace Emocoin.Bitcoin.Features.Consensus.Rules.CommonRules
 {
     /// <summary>

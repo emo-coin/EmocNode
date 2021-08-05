@@ -82,7 +82,7 @@ namespace Emocoin.Bitcoin.Features.Consensus.Rules.CommonRules
                             if(!this.CheckEmojis(tx, view))
                             {
                                 this.Logger.LogTrace("(-)[BAD_TRANSACTION_EMOJIS]");
-                                ConsensusErrors.BadTransactionEmoji.Throw();                                
+                                ConsensusErrors.BadTransactionEmoji.Throw();
                             }
                         }
 

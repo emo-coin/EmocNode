@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>Emocoin Bitcoin Features Consensus</Description>
-    <AssemblyTitle>Emocoin.Bitcoin.Features.Consensus</AssemblyTitle>
+    <Description>Stratis Bitcoin Features Consensus</Description>
+    <AssemblyTitle>Stratis.Bitcoin.Features.Consensus</AssemblyTitle>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Emocoin.Bitcoin.Features.Consensus</AssemblyName>
-    <PackageId>Emocoin.Features.Consensus</PackageId>
+    <PackageId>Stratis.Features.Consensus</PackageId>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
@@ -14,7 +14,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>1.0.7.4</Version>
+    <Version>1.0.7.5</Version>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Authors>Emocoin LLC</Authors>
   </PropertyGroup>

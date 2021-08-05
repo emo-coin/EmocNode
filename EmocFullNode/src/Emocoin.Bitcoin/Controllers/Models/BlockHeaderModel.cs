@@ -150,4 +150,33 @@ namespace Emocoin.Bitcoin.Controllers.Models
         public string display { get; private set; }        
     }
 
+    public class EmojiCodeModel
+    {
+        /// <summary>
+        /// Constructs a BlockHeaderModel from a block header object.
+        /// </summary>
+        /// <param name="blockHeader">The block header.</param>
+        public EmojiCodeModel(string emoji, string display)
+        {
+            this.emoji = emoji;
+            this.display = display;
+        }
+
+        /// <summary>
+        /// Constructs a BlockHeaderModel.
+        /// Used when deserializing block header from Json.
+        /// </summary>
+        public EmojiCodeModel()
+        {
+        }
+
+        /// <summary>
+        /// The merkle root for this block encoded as hex in RPC byte order.
+        /// </summary>
+        [JsonProperty(PropertyName = "emoji")]
+        public string emoji { get; private set; }
+
+        [JsonProperty(PropertyName = "display")]
+        public string display { get; private set; }
+    }
 }

@@ -6,7 +6,7 @@
     <AssemblyName>Emocoin.Bitcoin.Features.Api</AssemblyName>
     <OutputType>Library</OutputType>
     <PackageId>Emocoin.Features.Api</PackageId>
-    <Version>1.0.7.4</Version>
+    <Version>1.0.7.5</Version>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <ApplicationIcon />
     <OutputTypeEx>library</OutputTypeEx>

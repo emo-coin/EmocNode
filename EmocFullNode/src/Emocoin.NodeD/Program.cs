@@ -37,11 +37,6 @@ namespace Emocoin.EmocD
     {
         public static async Task Main(string[] args)
         {
-            //Emoji emo = Emoji.GetRandomPureBreed();
-            //string strEmo = emo.ToString();
-            //Emoji emo1 = new Emoji(strEmo);
-            //string strEmo1 = emo1.ToString();
-
             try
             {
                 var nodeSettings = new NodeSettings(networksSelector: Networks.Emoc, protocolVersion: ProtocolVersion.PROVEN_HEADER_VERSION, args: args)

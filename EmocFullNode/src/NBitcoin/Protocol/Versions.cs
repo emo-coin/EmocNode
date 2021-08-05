@@ -17,7 +17,7 @@
         /// <summary>
         /// Disconnect from peers older than this protocol version.
         /// </summary>
-        MIN_PEER_PROTO_VERSION = 70013,
+        MIN_PEER_PROTO_VERSION = 70015,
 
         /// <summary>
         /// nTime field added to CAddress, starting with this version;
@@ -63,28 +63,29 @@
         /// <summary>
         /// ! Version after which witness support potentially exists.
         /// </summary>
-        WITNESS_VERSION = 70013,
+        WITNESS_VERSION = 70015,
 
         /// <summary>
         /// Communication between nodes with proven headers is possible after this version.
         /// This is for emocoin only. Temporary solution, refers to issue #2144
         /// https://github.com/emocoinproject/EmocoinBitcoinFullNode/issues/2144
         /// </summary>
-        PROVEN_HEADER_VERSION = 70013,
+        PROVEN_HEADER_VERSION = 70015,
 
         /// <summary>
         /// shord-id-based block download starts with this version.
         /// </summary>
-        SHORT_IDS_BLOCKS_VERSION = 70014,
+        SHORT_IDS_BLOCKS_VERSION = 70015,
 
+        //emoc does not use cirrus - set these very high and remove in future
         /// <summary>
         /// Oldest supported version of the CirrusNode which this node can connect to.
         /// </summary>
-        CIRRUS_MIN_SUPPORTED_VERSION = 80000,
+        CIRRUS_MIN_SUPPORTED_VERSION = 800000,
 
         /// <summary>
         /// Current version of the CirrusNode.
         /// </summary>
-        CIRRUS_VERSION = 80000,
+        CIRRUS_VERSION = 800000,
     }
 }

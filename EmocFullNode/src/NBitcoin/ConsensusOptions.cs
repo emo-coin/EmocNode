@@ -190,7 +190,8 @@ namespace NBitcoin
             if (network.NetworkType == NetworkType.Regtest)
                 return 20;
 
-            return 500;
+            //TODO: set to 100 when PoS blockheight reached and checkpoint set
+            return 20;
         }
     }
 }

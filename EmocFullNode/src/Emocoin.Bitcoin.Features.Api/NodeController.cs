@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using NBitcoin;
@@ -278,7 +279,26 @@ namespace Emocoin.Bitcoin.Features.Api
                 return ErrorHelpers.BuildErrorResponse(HttpStatusCode.BadRequest, e.Message, e.ToString());
             }
         }
-         
+
+        [Route("getemojicode")]
+        [HttpGet]
+        public IActionResult GetEmojiCode([FromQuery] string emojiHex = "")
+        {
+            try
+            {
+                this.logger.LogDebug("GetEmojiCode {0}", emojiHex);
+
+                Emoji emo = new Emoji(emojiHex);
+                EmojiCodeModel model = new EmojiCodeModel(emojiHex, emo.ToStringUnicode());
+                return this.Json(model);
+            }
+            catch (Exception e)
+            {
+                this.logger.LogError("Exception occurred: {0}", e.ToString());
+                return ErrorHelpers.BuildErrorResponse(HttpStatusCode.BadRequest, e.Message, e.ToString());
+            }
+        }
+
         /// <summary>
         /// Gets the block emoji display identified by block height.
         /// </summary>

@@ -82,6 +82,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.NodeD", "Emocoin.No
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapExtractionTool", "SwapExtractionTool\SwapExtractionTool.csproj", "{F2999E86-9949-4962-A6C6-38D1F0409D73}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emocoin.Scripts", "Emocoin.Scripts\Emocoin.Scripts.csproj", "{64AD3E81-7CAC-4AF4-AE7B-02ECDE38BB9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -192,6 +194,10 @@ Global
 		{F2999E86-9949-4962-A6C6-38D1F0409D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2999E86-9949-4962-A6C6-38D1F0409D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2999E86-9949-4962-A6C6-38D1F0409D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AD3E81-7CAC-4AF4-AE7B-02ECDE38BB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AD3E81-7CAC-4AF4-AE7B-02ECDE38BB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AD3E81-7CAC-4AF4-AE7B-02ECDE38BB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AD3E81-7CAC-4AF4-AE7B-02ECDE38BB9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

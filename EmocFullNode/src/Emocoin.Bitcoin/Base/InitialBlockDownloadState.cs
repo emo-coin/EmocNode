@@ -64,6 +64,7 @@ namespace Emocoin.Bitcoin.Base
                 if (!this.network.IsRegTest())
                     return true;
 
+
                 // RegTest networks may experience long periods of no mining.
                 // If this happens we don't want to be in IBD because we can't
                 // mine new blocks in IBD and our nodes will be frozen at the

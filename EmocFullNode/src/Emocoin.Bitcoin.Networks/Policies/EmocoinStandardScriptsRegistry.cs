@@ -6,7 +6,7 @@ using NBitcoin.BitcoinCore;
 namespace Emocoin.Bitcoin.Networks.Policies
 {
     /// <summary>
-    /// Emocoin-specific standard transaction definitions.
+    /// Stratis-specific standard transaction definitions.
     /// </summary>
     public class EmocoinStandardScriptsRegistry : StandardScriptsRegistry
     {

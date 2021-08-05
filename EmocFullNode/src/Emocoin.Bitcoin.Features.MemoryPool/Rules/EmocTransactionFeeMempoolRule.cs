@@ -25,8 +25,9 @@ namespace Emocoin.Bitcoin.Features.MemoryPool.Rules
         public override void CheckTransaction(MempoolValidationContext context)
         {
             // We expect a reward claim transaction to have at least 2 outputs.
-            bool federationPayment = !(context.Transaction.Outputs.Count < 2);
+            //bool federationPayment = !(context.Transaction.Outputs.Count < 2);
 
+            /*
             // The OP_RETURN output that marks the transaction as cross-chain (and in particular a reward claiming transaction) must be present.
             if (context.Transaction.Outputs.All(o => o.ScriptPubKey != EmocCoinstakeRule.CirrusTransactionTag(this.network.CirrusRewardDummyAddress)))
             {
@@ -48,7 +49,7 @@ namespace Emocoin.Bitcoin.Features.MemoryPool.Rules
             // We need to bypass the fee checking logic for correctly-formed transactions that pay Cirrus rewards to the federation.
             if (federationPayment)
                 return;
-
+            */
             base.CheckTransaction(context);
         }
     }
