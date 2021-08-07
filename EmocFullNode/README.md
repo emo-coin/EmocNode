@@ -30,7 +30,7 @@ or source and build:
 
 ```
 git clone https://github.com/emo-coin/EmocNode.git
-cd EmocoinFullNode\src
+cd EmocoinFullNode\src\Emocoin.NodeD
 
 dotnet build
 
