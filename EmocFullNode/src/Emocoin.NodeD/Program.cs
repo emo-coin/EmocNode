@@ -20,17 +20,7 @@ using Emocoin.Bitcoin.Networks;
 using Emocoin.Bitcoin.Utilities;
 using Emocoin.Features.Diagnostic;
 using Emocoin.Features.SQLiteWalletRepository;
-/*
-TBD:
-            !!!must be updated for Emoji field in transaction!!!
-            // TODO: Update this once the final block is mined
-            //Assert(this.Consensus.HashGenesisBlock == uint256.Parse("0x77283cca51b83fe3bda9ce8966248613036b0dc55a707ce76ca7b79aaa9962e4"));
 
-- expose emoji through API;
-
-
-
-*/
 namespace Emocoin.EmocD
 {
     public class Program
