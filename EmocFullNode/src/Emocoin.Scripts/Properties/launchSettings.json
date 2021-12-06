@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Emocoin.EmocD": {
-      "commandName": "Project",
-      "commandLineArgs": "-conf=mainnet.conf -datadir=d:\\data\\mainnet"
-    }
-  }
-}
